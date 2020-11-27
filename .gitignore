@@ -1,0 +1,16 @@
+$ git add .gitignore
+ 
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+        new file:   .gitignore
+ 
+$ git commit -m "Added .gitignore"
+[master 711ef4f] Added .gitignore
+ 1 file changed, 14 insertions(+)
+ create mode 100644 .gitignore
+  
+$ git status
+On branch master
+nothing to commit, working directory clean
